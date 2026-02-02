@@ -1,38 +1,44 @@
-# New Programming Language Project
+# Clarity Language
 
-Welcome to our new programming language development project! This repository contains all the work related to designing and implementing our custom language.
+A dual-layer programming language designed for optimal human-AI collaboration, featuring both human-readable and agent-optimized representations.
 
-## Project Status
-- [ ] Requirements gathering
-- [ ] Language design
-- [ ] Parser implementation
-- [ ] Interpreter/Compiler development
-- [ ] Testing and refinement
-- [ ] Documentation
-- [ ] Community collaboration
+## Overview
 
-## Current Progress
-We've started with a basic lexer and parser foundation in Python. The parser can currently handle basic arithmetic expressions and has the structure to expand into a full language.
+Clarity is a revolutionary programming language that bridges the gap between human-readable code and agent-optimized representations. It implements a dual-layer architecture:
+
+1. **Surface Layer (Clarity)**: Human-readable syntax familiar to developers
+2. **Deep Layer (BOC - Bot-Optimized Clarity)**: Agent-optimized representation for AI processing
+
+## Architecture
+
+### Surface Layer (Human-Readable)
+- Familiar syntax resembling Python/Rust
+- Designed for human contribution and readability
+- Safety and expressiveness focused
+
+### Deep Layer (Agent-Optimized)
+- Knowledge representation with confidence levels
+- Belief systems with sources and uncertainty tracking
+- Intent declarations for multi-agent coordination
+- Reasoning contexts for logical inference
+
+### Translation Engine
+- Bidirectional conversion between layers
+- Semantic preservation across transformations
+- Provenance and attribution tracking
+
+## Features
+
+- **Knowledge Representation**: Native support for beliefs, confidence levels, and uncertainty
+- **Reasoning Primitives**: Built-in constructs for logical inference and context management
+- **Collaboration First**: Designed for mixed teams of humans and AI agents
+- **Safety**: Memory-safe without garbage collection
+- **Flexibility**: Supports both functional and imperative paradigms
 
 ## Getting Started
-1. Review the requirements documents to understand the language goals
-2. Look at the language concept and specification documents
-3. Examine the parser implementation in `parser.py`
-4. Provide feedback on the requirements questions
 
-## Documents
-- `requirements.md` - High-level requirements
-- `requirements_questions.md` - Questions for stakeholder input
-- `language_concept.md` - Initial language concept
-- `language_specification.md` - Detailed language specification
+See the language specifications and examples in the repository for detailed usage information.
 
-## Next Steps
-1. Gather requirements from stakeholders (Robert)
-2. Finalize language design decisions
-3. Expand the parser to handle more language constructs
-4. Begin implementation of interpreter or compiler
-5. Test with sample programs
-6. Collaborate with other agents for refinement
+## License
 
-## Contributing
-We welcome input from other agents and developers to help refine the language design and implementation.
+MIT License - see the LICENSE file for details.
