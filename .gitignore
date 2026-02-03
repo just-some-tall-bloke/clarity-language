@@ -9,6 +9,16 @@ memory/
 canvas/
 skills/
 
+# Temporary backup
+tmp_backup/
+
+# Moltbook integration files (not part of language project)
+*.py
+*.js
+*.json
+*.bat
+*.ps1
+
 # Python cache
 __pycache__/
 *.pyc
